@@ -1,0 +1,64 @@
+* {
+	padding: 0;
+	margin: 0;
+	outline: 0;
+	text-decoration: none;
+}
+
+.first {
+
+}
+
+.second {
+display: flex;
+flex-wrap: wrap;
+flex-direction: row;
+
+}
+
+.block {
+background: green;
+width: 200px;
+
+display: flex;
+flex-wrap: wrap;
+flex-direction: row;
+
+
+transition: 1s;
+animation: aboba 2s ease infinite
+}
+
+.block img {
+	width: 100%;
+}
+
+.block:hover {
+	background: blue;
+}
+
+h1:hover {
+	background: blue;
+}
+
+body:hover {
+	transform: scale(1.5) rotate(300deg)
+	transition: 1s;
+}
+
+@keyframes aboba {
+	0% {
+		background: black;
+	}
+	17% {
+		background: red;
+	}
+	50% {
+		background: black;
+		color: : yellow;
+	}
+	100% {
+		background: blue;
+		color: white;
+	}
+}
